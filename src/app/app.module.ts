@@ -7,6 +7,7 @@ import { ProduitsComponent } from './application/produits/produits.component';
 import { AccueilComponent } from './application/accueil/accueil.component';
 import { ContactComponent } from './application/contact/contact.component';
 import { ErrorComponent } from './application/error/error.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ErrorComponent } from './application/error/error.component';
     ProduitsComponent,
     AccueilComponent,
     ContactComponent,
-    ErrorComponent
+    ErrorComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
